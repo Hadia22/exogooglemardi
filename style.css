@@ -8,5 +8,45 @@
 }
 #Main{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+}
+#Image{
+	display: flex;
+	justify-content: center;
+}
+#searchbar{display: flex;
+justify-content: center;
+}
+#boutons{
+	display: flex;
+	justify-content: center;
+}
+#footer{
+	position: absolute;
+	display: flex;
+	flex-direction:column;
+	bottom: 0;
+	width: 100%;
+}
+
+#liens{
+	display: flex;
+	display: inline;
+	
+}
+#liens div{
+	display: inline;
+	list-style: none;
+}
+.lien1{
+	float: left;
+	text-align: left;
+}
+.lien2{
+
+	float: right;
+	text-align: right;
+	display: inline;
+
 }
