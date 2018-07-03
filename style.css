@@ -1,4 +1,12 @@
-#header{
+#header {
 	display: flex;
 	justify-content: flex-end;
+
+}
+#header ul li{
+	display: inline;
+}
+#Main{
+	display: flex;
+	justify-content: center;
 }
